@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ESP8266_connect_type">
+        <item>TCP</item>
+        <item>UDP</item>
+    </string-array>
+    <string-array name="ESP8266_AP_ch">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+    <string-array name="ESP8266_AP_type">
+        <item>OPEN</item>
+        <item>WEP</item>
+        <item>WPA_PSK</item>
+        <item>WPA2_PSK</item>
+        <item>WPA_WPA2_PSK</item>
+    </string-array>
+    <string-array name="ESP8266">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="module">
+        <item>大气压力传感器</item>
+        <item>三轴加速度计传感器</item>
+        <item>光照强度传感器</item>
+        <item>RS485总线模块</item>
+        <item>红外对射传感器</item>
+        <item>热释红外传感器</item>
+        <item>接近开关-红外反射模块</item>
+        <item>雨雪传感器</item>
+        <item>广谱气体传感器</item>
+        <item>干簧门磁-霍尔开关模块</item>
+        <item>震动传感器</item>
+        <item>颜色传感器</item>
+        <item>声响开关-光敏传感器</item>
+        <item>温湿度传感器</item>
+        <item>直流电机桥模块</item>
+        <item>双数码管模块</item>
+        <item>LCD1602模块</item>
+        <item>热电偶传感器</item>
+        <item>SPICAN模块</item>
+        <item>LED-蜂鸣器模块</item>
+        <item>光耦-继电器模块</item>
+        <item>超声波测距传感器</item>
+        <item>独立按键模块</item>
+        <item>磁场强度传感器</item>
+        <item>循迹传感器</item>
+        <item>火焰传感器</item>
+        <item>DHT11温湿度传感器</item>
+    </string-array>
+
+    <string-array name="baud">
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+    </string-array>
+
+
+    <string-array name="dcmotor_speed">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+</resources>

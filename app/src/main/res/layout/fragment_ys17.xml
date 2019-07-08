@@ -1,0 +1,76 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uptech.magicmodule.YS17"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时刻关注您的消防安全"
+            android:textSize="30dp"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imageview_ys17"
+            android:layout_gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ys17_security"/>
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="20dp"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="时刻关注您的空气安全"-->
+            <!--android:textSize="30dp"-->
+            <!--android:paddingLeft="20dp"-->
+            <!--android:layout_gravity="center"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageview_mq2"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/mq2_normal"/>-->
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:id="@+id/safe"
+            android:padding="15dp"
+            android:background="@color/assist_green"
+            android:text="视频监控"/>
+
+    </LinearLayout>
+
+</LinearLayout>

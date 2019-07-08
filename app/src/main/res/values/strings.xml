@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">智能生活管家</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bmp180_instruction">\u3000\u3000请将大气压力传感器的J1接口连接到底板的P1接口，点击按钮可以控制模块读取温度值和压力值。</string>
+    <string name="lis331dlh_instruction">\u3000\u3000请将三轴加速度计传感器的P1接口连接到底板的P1接口，点击按钮可以控制模块读取X、Y、Z三个方向的重力值。</string>
+    <string name="bh1750_instruction">\u3000\u3000请将光照强度传感器的J1接口连接到底板的P1接口，J2接口连接到底板的P5接口，点击按钮可以控制模块读取光照强度。</string>
+    <string name="MAX485_instruction">\u3000\u3000请将RS485总线模块接口连接到底板的P2接口。485分为发送和接收两种模式，将模块的另一端接口与其他平台对接，其中一台设备作为输入，另一台作为输出。</string>
+    <string name="gk152_instruction">\u3000\u3000请将红外对射传感器的P5接口连接到底板的P5接口，当阻挡模块上的红外线发射和接收部分时，会显示警报。</string>
+    <string name="re200b_instruction">\u3000\u3000请将热释红外传感器的P5接口连接到底板的P5接口，当有人体靠近模块时，会显示出人影。</string>
+    <string name="tsir_instruction">\u3000\u3000请将接近开关-红外反射模块的P1接口连接到底板的P5接口，当物体接近底部的红外设备或者触碰开关可以触发传感器对应状态。</string>
+    <string name="rain_instruction">\u3000\u3000请将雨雪传感器的J1接口连接到底板的P5接口，用手触摸传感器表面可以模拟雨雪效果。</string>
+    <string name="mq2_instruction">\u3000\u3000请将广谱气体传感器的P5接口连接到底板的P5接口，当模块附近含有有毒气体时会产生报警。</string>
+    <string name="reedhall_instruction">\u3000\u3000请将干簧门磁-霍尔开关模块的P5接口连接到底板的P5接口，用磁性物体接近干簧管或霍尔开关时表示门关闭。</string>
+    <string name="sw18015p_instruction">\u3000\u3000请将震动传感器的J1接口连接到底板的P5接口，晃动震动传感器会触发震动效果。</string>
+    <string name="tcs3200_instruction">\u3000\u3000请将颜色传感器的J1接口连接到底板的P5接口，J2接口连接到底板的P8接口。将传感器贴近一个单色物体，3秒后可以读取其颜色。</string>
+    <string name="micldr_instruction">\u3000\u3000请将声响开关-光敏传感器的P5接口连接到底板的P5接口，麦克可以感知声音，光敏器件可以感知光照。</string>
+    <string name="sht11_instruction">\u3000\u3000请将温湿度传感器的P1接口连接到底板的P8接口，点击按钮可以控制模块读取温湿度。</string>
+    <string name="dcmotor_instruction">\u3000\u3000请将直流电机桥模块的P6接口连接到底板的P6接口，点击按钮可以控制直流电机。</string>
+    <string name="digitaltube_instruction">\u3000\u3000请将双数码管模块的P7接口连接到底板的P7接口，P8接口连接到底板的P8接口。滑动数字列表，模块上显示相应数字。</string>
+    <string name="lcd12232_instruction">\u3000\u3000请将LCD1602模块的P7接口连接到底板的P7接口，P8接口连接到底板的P8接口。点击按钮可以控制模块显示汉字。</string>
+    <string name="max6675_instruction">\u3000\u3000请将热电偶传感器的J1接口连接到底板的P7接口，J2接口连接到底板的P8接口。屏幕上显示热电偶测量的温度。</string>
+    <string name="mcp2510_instruction">\u3000\u3000请将SPICAN模块的P7接口连接到底板的P7接口，P5接口连接到底板的P5接口。选择模式（测试使用回环模式），在左侧文本框输入发送的数据，右侧文本框显示接收的数据。</string>
+    <string name="ledbuzzer_instruction">\u3000\u3000请将LED-蜂鸣器模块的P8接口连接到底板的P8接口，点击对应按钮可以控制LED灯和蜂鸣器。</string>
+    <string name="ocrelay_instruction">\u3000\u3000请将光耦-继电器模块的P8接口连接到底板的P8接口。点击继电器后的按钮可以控制继电器开关，光耦需要接通40V左右的电源才可以开启。</string>
+    <string name="ultrasonic_instruction">\u3000\u3000请将超声波测距传感器的连接到底板的P8接口。点击开始按钮测量距离，点击停止按钮停止测量。</string>
+    <string name="keymodule_instruction">\u3000\u3000请将独立按键模块的P5接口连接到底板的P5接口，P8接口连接到底板的P8接口。点击按键模块上的按键，可以看到屏幕上的对应按钮产生变化。</string>
+    <string name="ESP8266_instruction">\u3000\u3000请将串口WiFi模块的P1接口连接到底板的P2接口，选择WIFI模式启动WIFI，选择连接模式连接服务器，点击启动TCP服务器按钮开启服务器。</string>
+    <string name="mag3110_instruction">\u3000\u3000请将磁场强度传感器的J1接口连接到底板的P1接口，点击按钮可以控制模块读取X、Y、Z三个方向的磁感应值。</string>
+    <string name="HC08_instruction">\u3000\u3000请将串口蓝牙模块的J1接口连接到底板的P2接口，然后使用手机端的APP与蓝牙模块连接，可以相互通信。</string>
+    <string name="tracking_instruction">\u3000\u3000请将循迹传感器连接到底板的P5接口，将模块放到白底黑线的跑到上，根据模块所在位置自动改变车的方向。如果反应错误，请根据模块原理调整模块上的滑动变阻器。</string>
+    <string name="ys17_instruction">\u3000\u3000请将火焰传感器连接到底板的P5接口，使用打火机在模块附近打火测试模块。</string>
+    <string name="buzzer_text">蜂鸣器:</string>
+    <string name="LED_text">L&#160;&#160;E&#160;&#160;D:</string>
+    <string name="module_TextView_main">选择模块:</string>
+    <string name="temp_value">温度值:</string>
+    <string name="humidity_value">湿度值:</string>
+    <string name="dew_point_value">露点值:</string>
+    <string name="pressure_value">压力值:</string>
+    <string name="LEDBuzzerPath">/dev/LEDBuzzer</string>
+    <string name="BMP180Path">/dev/i2c-0</string>
+    <string name="lis331dlh_x">X:</string>
+    <string name="lis331dlh_y">Y:</string>
+    <string name="lis331dlh_z">Z:</string>
+    <string name="LIS331DLHPath">/dev/i2c-0</string>
+    <string name="bh1750_value">光照强度:</string>
+    <string name="BH1750Path">/dev/BH1750</string>
+    <string name="BH1750I2C">/dev/i2c-0</string>
+    <string name="MAX485_Path">/dev/ttymxc1</string>
+    <string name="GK152Path">/dev/GK152</string>
+    <string name="RE200BPath">/dev/RE200B</string>
+    <string name="TSIRPath">/dev/TSIR</string>
+    <string name="RainPath">/dev/Rain</string>
+    <string name="MQ2Path">/dev/MQ2</string>
+    <string name="ReedHallPath">/dev/ReedHall</string>
+    <string name="SW18015PPath">/dev/SW18015P</string>
+    <string name="TCS3200Path">/dev/TCS3200</string>
+    <string name="MICLDRPath">/dev/MICLDR</string>
+    <string name="SHT11Path">/dev/SHT11</string>
+    <string name="dcmotor_speed">速度:</string>
+    <string name="dcmotor_direction">旋转方向:</string>
+    <string name="DCMotorPath">/dev/DCMotor</string>
+    <string name="DigitalTubePath">/dev/DigitalTube</string>
+    <string name="LCD1602Path">/dev/LCD1602</string>
+    <string name="MCP2510_Path">/dev/MCP2510</string>
+    <string name="relay_text">继电器：</string>
+    <string name="opticalcoupler_text">光耦状态：</string>
+    <string name="OCRelayPath">/dev/OCRelay</string>
+    <string name="MAX6675Path">/dev/MAX6675</string>
+    <string name="mcp2510_mode">选择模式：</string>
+    <string name="mcp2510_normal_mode">正常模式</string>
+    <string name="mcp2510_loopback_mode">回环模式</string>
+    <string name="ultrasonic_value">距离:</string>
+    <string name="HCSR04Path">/dev/HCSR04</string>
+    <string name="KeyModulePath">/dev/KeyModule</string>
+    <string name="MAG3110Path">/dev/i2c-0</string>
+    <string name="TrackingPath">/dev/Tracking</string>
+    <string name="YS17Path">/dev/YS17</string>
+    <string name="DHT11Path">/dev/DHT11</string>
+
+
+    <string-array name="news_index">
+        <item>头条</item>
+        <item>新闻</item>
+        <item>财经</item>
+        <item>体育</item>
+        <item>娱乐</item>
+        <item>军事</item>
+        <item>教育</item>
+        <item>科技</item>
+        <item>NBA</item>
+        <item>股票</item>
+        <item>星座</item>
+        <item>女性</item>
+        <item>健康</item>
+        <item>育儿</item>
+    </string-array>
+
+    <integer-array name="news_index_color">
+        <item>@color/red1</item>
+        <item>@color/yellow0</item>
+        <item>@color/blue0</item>
+        <item>@color/line</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+        <item>@color/red1</item>
+    </integer-array>
+
+    <string name="zhengzhinews">北京时间六月十九日，美国总统特朗普于佛罗里达州奥兰多市发表演讲，正式宣布自己将参加2020年总统大选，争取连任。
+        但是，特朗普这次讲话的内容着实不大新鲜，他对中国问题的“老调重弹”，也在第一时间遭美国媒体“打脸”。"
+        "值得一提的是，据美国有线电视新闻网（CNN）报道，自从特朗普入住白宫以来，他已经举办了超50场集会活动，
+        并且在2017年的就职典礼上，他就正式签署了参加本届总统竞选的文件。据CNN报道，特朗普又以一贯的批评媒体的言论，
+        开启了本场活动，他在集会开场表示：“如果我们会场里有3个或4个空椅子，那么媒体就会在头版头条说‘特朗普没能填满整个场地’。”</string>
+</resources>
